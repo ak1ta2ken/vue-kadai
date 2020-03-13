@@ -30,6 +30,9 @@ new Vue({
       })
         // この function() { } の中にaddStudentメソッド
         // （入力欄に入力された値と、ID値（最後に登録されたID値+1の値）が新たに出現する機能）の処理を書く
+      this.name = null
+      this.cource = null
+      this.acceptancePeriod = null
     }
   }
 })
